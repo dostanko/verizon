@@ -241,16 +241,22 @@
 				<string>SharedSecret</string>
 				<key>LocalIdentifierType</key>
 				<string>KeyID</string>
+				<key>SharedSecret</key>
+				<data>
+				cnJ0eXR1
+				</data>
 			</dict>
 			<key>IPv4</key>
 			<dict>
 				<key>OverridePrimary</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>PPP</key>
 			<dict>
 				<key>AuthName</key>
 				<string>Verizon</string>
+				<key>AuthPassword</key>
+				<string>kknknk</string>
 				<key>CommRemoteAddress</key>
 				<string>127.0.0.1</string>
 			</dict>
@@ -259,11 +265,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.52D92F52-DC74-4A9C-A715-0881DCAC2AAB</string>
+			<string>com.apple.vpn.managed.BDDF377C-4C71-4B1B-A8D8-070EE392CBE2</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>52D92F52-DC74-4A9C-A715-0881DCAC2AAB</string>
+			<string>BDDF377C-4C71-4B1B-A8D8-070EE392CBE2</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -290,7 +296,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>B8224D27-ED6B-4CBC-ABE1-5B6F4F17956F</string>
+	<string>9C7E2818-4811-431F-AEF5-1C899B3B438E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
