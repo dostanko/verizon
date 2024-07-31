@@ -5,6 +5,50 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>Certificate</string>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>AuthName</key>
+				<string>Verizon</string>
+				<key>AuthPassword</key>
+				<string>kknknk</string>
+				<key>CommRemoteAddress</key>
+				<string>127.0.0.1</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.C70278D6-FAD1-4C23-B0EB-266E2FAE44D7</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>C70278D6-FAD1-4C23-B0EB-266E2FAE44D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>Ira Verizon </string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
@@ -234,56 +278,6 @@
 			<key>safariForceFraudWarning</key>
 			<false/>
 		</dict>
-		<dict>
-			<key>IPSec</key>
-			<dict>
-				<key>AuthenticationMethod</key>
-				<string>SharedSecret</string>
-				<key>LocalIdentifierType</key>
-				<string>KeyID</string>
-				<key>SharedSecret</key>
-				<data>
-				cnJ0eXR1
-				</data>
-			</dict>
-			<key>IPv4</key>
-			<dict>
-				<key>OverridePrimary</key>
-				<integer>0</integer>
-			</dict>
-			<key>PPP</key>
-			<dict>
-				<key>AuthName</key>
-				<string>Verizon</string>
-				<key>AuthPassword</key>
-				<string>kknknk</string>
-				<key>CommRemoteAddress</key>
-				<string>127.0.0.1</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures VPN settings</string>
-			<key>PayloadDisplayName</key>
-			<string>VPN</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.BDDF377C-4C71-4B1B-A8D8-070EE392CBE2</string>
-			<key>PayloadType</key>
-			<string>com.apple.vpn.managed</string>
-			<key>PayloadUUID</key>
-			<string>BDDF377C-4C71-4B1B-A8D8-070EE392CBE2</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Proxies</key>
-			<dict>
-				<key>HTTPEnable</key>
-				<integer>0</integer>
-				<key>HTTPSEnable</key>
-				<integer>0</integer>
-			</dict>
-			<key>UserDefinedName</key>
-			<string>Ira Verizon </string>
-			<key>VPNType</key>
-			<string>L2TP</string>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Verizon Try</string>
@@ -296,7 +290,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>9C7E2818-4811-431F-AEF5-1C899B3B438E</string>
+	<string>6B80D64A-B016-45FE-BF79-7B4519B4E162</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
