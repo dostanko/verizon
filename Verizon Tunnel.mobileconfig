@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -15,11 +17,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.1E3074C2-EC06-4666-8590-E96F3E7A0A20</string>
+			<string>com.apple.vpn.managed.3E1CD422-6DD7-455B-AAAF-44339C35C5A0</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>1E3074C2-EC06-4666-8590-E96F3E7A0A20</string>
+			<string>3E1CD422-6DD7-455B-AAAF-44339C35C5A0</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -44,7 +46,7 @@
 				<key>ProviderBundleIdentifier</key>
 				<string>com.verizon.epam.VzVpn.Tunnel</string>
 				<key>ProviderDesignatedRequirement</key>
-				<string>filter</string>
+				<string>com.verizon.epam.VzVpn</string>
 				<key>RemoteAddress</key>
 				<string>127.0.0.1</string>
 			</dict>
@@ -65,7 +67,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F7D1978B-05C4-4F79-9890-EE7ABD59D86E</string>
+	<string>6B1E5D4D-4939-4A95-B19A-39B33F180BFD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
