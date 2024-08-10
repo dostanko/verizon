@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.F6636E2E-C1F0-4218-9F32-D07E82CCE634</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>F6636E2E-C1F0-4218-9F32-D07E82CCE634</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>Verizon Tunnel</string>
+			<key>VPN</key>
+			<dict>
+				<key>AuthName</key>
+				<string>verizon</string>
+				<key>AuthPassword</key>
+				<string>123456</string>
+				<key>AuthenticationMethod</key>
+				<string>Password</string>
+				<key>IncludeAllNetworks</key>
+				<integer>0</integer>
+				<key>ProviderBundleIdentifier</key>
+				<string>com.verizon.epam.VzVpn.Tunnel</string>
+				<key>RemoteAddress</key>
+				<string>127.0.0.1</string>
+			</dict>
+			<key>VPNSubType</key>
+			<string>vpn-client</string>
+			<key>VPNType</key>
+			<string>VPN</string>
+			<key>VendorConfig</key>
+			<dict/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Verizon Tunnel</string>
+	<key>PayloadIdentifier</key>
+	<string>EPPLGDAW00D2.617F3DD9-2B03-4417-99D2-C9C4414C29C2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>CD0F4804-8405-47E2-B605-5CBECE4DBC7F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
