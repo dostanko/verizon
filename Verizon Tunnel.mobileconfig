@@ -17,11 +17,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.3D246DD2-8D13-494E-B54E-54447978EA5B</string>
+			<string>com.apple.vpn.managed.912D5426-E165-4F80-843A-CC0326AAFAD7</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>3D246DD2-8D13-494E-B54E-54447978EA5B</string>
+			<string>912D5426-E165-4F80-843A-CC0326AAFAD7</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -40,9 +40,15 @@
 				<key>AuthPassword</key>
 				<string>123456</string>
 				<key>AuthenticationMethod</key>
-				<string>Password</string>
+				<string>Certificate</string>
 				<key>IncludeAllNetworks</key>
 				<integer>0</integer>
+				<key>OnDemandEnabled</key>
+				<integer>1</integer>
+				<key>OnDemandMatchDomainsAlways</key>
+				<array>
+					<string>*</string>
+				</array>
 				<key>ProviderBundleIdentifier</key>
 				<string>com.verizon.epam.VzVpn.Tunnel</string>
 				<key>ProviderDesignatedRequirement</key>
@@ -67,7 +73,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>FE667BCB-E0E6-47E6-81A0-77645AEE312F</string>
+	<string>A5D9C030-1ADE-4B58-A74A-FD1BEB8DE1B8</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
