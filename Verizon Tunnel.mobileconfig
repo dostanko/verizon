@@ -46,7 +46,9 @@
 				<key>OnDemandEnabled</key>
 				<integer>1</integer>
 				<key>OnDemandMatchDomainsAlways</key>
-				<array/>
+				<array>
+					<string>google.com</string>
+				</array>
 				<key>ProviderBundleIdentifier</key>
 				<string>com.verizon.epam.VzVpn.Tunnel</string>
 				<key>ProviderDesignatedRequirement</key>
@@ -71,7 +73,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>3212A52E-9E21-407C-806D-3F4C89F9433F</string>
+	<string>00C87C2E-D808-46A6-BA15-9DD820A754AD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
