@@ -45,12 +45,20 @@
 				<integer>0</integer>
 				<key>OnDemandEnabled</key>
 				<integer>1</integer>
+				<key>OnDemandRules</key>
+					<array>
+						<dict>
+							<key>Action</key>
+							<string>Connect</string>
+							<key>InterfaceTypeMatch</key>
+							<string>Any</string>
+
+						</dict>
+					</array>
 				<key>OnDemandMatchDomainsAlways</key>
-				<array/>
+			    <array/>
 				<key>OnDemandMatchDomainsNever</key>
-				<array>
-					<string>google.com</string>
-				</array>
+				<array/>
 				<key>OnDemandMatchDomainsOnRetry</key>
 				<array/>
 				<key>ProviderBundleIdentifier</key>
@@ -77,7 +85,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C1764EF1-25A9-475F-8E45-AA93FBE52210</string>
+	<string>FBA5D4C1-D6D9-44A0-A4A3-8FB30F9E094C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
