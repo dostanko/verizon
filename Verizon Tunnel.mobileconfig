@@ -17,11 +17,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.F31587C6-1AC3-4A9D-ACD9-B4BA2F67FDED</string>
+			<string>com.apple.vpn.managed.0BC63628-0ACE-423B-8A67-2A830F500FAA</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>F31587C6-1AC3-4A9D-ACD9-B4BA2F67FDED</string>
+			<string>0BC63628-0ACE-423B-8A67-2A830F500FAA</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -40,13 +40,17 @@
 				<key>AuthPassword</key>
 				<string>123456</string>
 				<key>AuthenticationMethod</key>
-				<string>Password</string>
+				<string>Certificate</string>
 				<key>IncludeAllNetworks</key>
 				<integer>0</integer>
 				<key>OnDemandEnabled</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>OnDemandMatchDomainsAlways</key>
 				<array/>
+				<key>OnDemandMatchDomainsNever</key>
+				<array>
+					<string>google.com</string>
+				</array>
 				<key>OnDemandMatchDomainsOnRetry</key>
 				<array/>
 				<key>ProviderBundleIdentifier</key>
@@ -73,7 +77,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>DC5573AA-210F-4878-BC28-E10F27C075AD</string>
+	<string>C1764EF1-25A9-475F-8E45-AA93FBE52210</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
